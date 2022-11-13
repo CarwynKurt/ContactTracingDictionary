@@ -18,5 +18,11 @@ if choice == 1:
     contact_dictionary = {name : [gender, age, address, number]}
     print(contact_dictionary)
 # Option 2 Result
+elif choice == 2:
+    search_name = input("Name: ")
+    if search_name in contact_dictionary:
+        print(contact_dictionary)
+    else:
+        print("We could not find your name in the list! Try Again!")
 # Option 3 Result
 # Loop
