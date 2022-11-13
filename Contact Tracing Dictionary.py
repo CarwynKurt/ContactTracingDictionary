@@ -25,4 +25,7 @@ elif choice == 2:
     else:
         print("We could not find your name in the list! Try Again!")
 # Option 3 Result
+elif choice == 3:
+    print("Thank you for using contact tracing!")
+    break
 # Loop
